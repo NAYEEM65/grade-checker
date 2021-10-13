@@ -1,0 +1,6 @@
+.result__show{
+    background-color: bisque;
+    padding: 30px;
+    color: rgb(250, 89, 60);
+    display: none;
+}
