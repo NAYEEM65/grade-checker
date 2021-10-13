@@ -28,11 +28,29 @@
                 <button type="submit" id="submitBtn" class="btn btn-primary">Submit</button>
                 </form>
         </div>
-        <div class="col-lg-3"></div>
+        <div class="col-lg-3">
+            <h3 id="change">This text style will be change for the use of object</h3>
+            <div id="changeBtn" class="btn btn-primary">Click</div>
+        </div>
     </div>
 </div>
 
+<!-- <script>
+const change = document.querySelector('#change');
+const changeBtn = document.querySelector('#changeBtn');
 
+changeBtn.addEventListener('click',function(){
+    const changeObj = {
+    marginTop: "50px",
+    backgroundColor:"gray",
+    padding: "20px",
+    color: "white",
+}
+    change.style.backgroundColor=changeObj.backgroundColor;
+    change.style.color=changeObj.color;
+    change.style.padding=changeObj.padding;
+})
+</script> -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
