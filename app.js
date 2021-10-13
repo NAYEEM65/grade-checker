@@ -14,7 +14,7 @@
          result.innerHTML="OPPs! You have failed."; 
          result__show.style.color = 'red';
      }
-     else if(resultValue>33 && resultValue<=40){
+     else if(resultValue>=33 && resultValue<=40){
          result.innerHTML="Your garde is D";
          result__show.style.color = 'green';  
      }
